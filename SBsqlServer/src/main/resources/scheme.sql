@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS employee;
+
+CREATE TABLE employee(
+	eid INT IDENTITY (1, 1) PRIMARY KEY,
+	name VARCHAR (255) NOT NULL,
+	phone VARCHAR (25),
+	email VARCHAR (255) NOT NULL,
+);
